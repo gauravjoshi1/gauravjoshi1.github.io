@@ -32,3 +32,5 @@ Consequat ea consequat eu incididunt aliqua proident laborum. Qui mollit Lorem d
 Proident Lorem ipsum enim do sint excepteur commodo. Id labore veniam sit ad laboris occaecat do do. Laboris consequat nisi ad et do. Occaecat sint exercitation ut veniam ipsum in velit voluptate deserunt veniam ad.
 
 Excepteur elit ex fugiat nostrud dolor in commodo enim aliquip eiusmod. Minim ullamco Lorem exercitation magna incididunt exercitation ex mollit. Consequat officia est ipsum occaecat cillum nostrud aute labore sint minim sunt commodo duis. Culpa aliquip consequat eu commodo nisi eu nostrud. Tempor laborum sint cillum ad qui cillum proident mollit. Ullamco incididunt Lorem do ut amet ut exercitation do mollit.
+
+{{< chat forth-post >}}
