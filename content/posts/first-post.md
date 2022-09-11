@@ -2,6 +2,27 @@
 title: "First Post"
 date: 2022-08-13T19:37:47-05:00
 draft: false
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+editPost:
+    URL: "https://github.com/"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 Ad deserunt nulla occaecat nostrud commodo sunt fugiat tempor culpa voluptate ex et consectetur. Dolore labore anim nostrud eiusmod irure voluptate cillum consequat sunt cillum ullamco ullamco nulla. Velit in ad culpa dolore cillum nisi. Laborum irure Lorem Lorem laboris laboris est.
