@@ -45,3 +45,5 @@ url = "https://github.com/gauravjoshi1"
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
 
+[params]
+custom_css = ["css/tl.css"]
