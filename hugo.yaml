@@ -89,7 +89,7 @@ menu:
       weight: 50
     - identifier: Resume
       name: Resume
-      url: https://gauravjoshi.me/resume.pdf
+      url: /resume.pdf
       weight: 50
 
 markup:
