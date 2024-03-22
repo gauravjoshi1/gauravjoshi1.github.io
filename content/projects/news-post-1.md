@@ -1,10 +1,25 @@
 ---
-title: "About"
-date: 2021-12-18T11:10:36+08:00
+title: "News Post 1"
+date: 2022-05-18T11:10:36+08:00
 draft: false
 language: en
-description: About Us
 featured_image: ../assets/images/featured/featured-img-placeholder.png
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero. Vestibulum vel convallis felis. Ut finibus lorem vestibulum lobortis rhoncus.
+author: TailBliss
+authorimage: ../assets/images/global/author.webp
+categories: News
+tags: News
+---
+__Advertisement :smile:__
+
+- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
+  resize in browser.
+- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
+  i18n with plurals support and easy syntax.
+
+You will like those projects!
+
 ---
 
 # h1 Heading :blush:
