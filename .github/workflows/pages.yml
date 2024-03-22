@@ -45,7 +45,11 @@ jobs:
         uses: actions/configure-pages@v1
       - name: Build with Hugo
         run: |
+          npm \
+          install \
+          && \
           hugo \
+            --gc \
             --minify \
             --baseURL ${{ steps.pages.outputs.base_url }}
       - name: Upload artifact
