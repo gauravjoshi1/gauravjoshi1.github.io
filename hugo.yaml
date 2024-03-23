@@ -47,16 +47,10 @@ markup:
 
 params:
   author: Gaurav Joshi
-  #authorimage: ../assets/images/global/author.webp
-  #og_image: /images/tailbliss-cover.png
   moto: "Software Developer | Tech Enthusiast"
   disable_theme_toggle: false
   disable_stay_uptodate: true
-
-  p4:
-    heading: "Projects"
-    content:
-      - text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed."
+  
   p5:
     heading: "Let's Connect"
     content:
