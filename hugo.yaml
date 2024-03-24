@@ -51,6 +51,8 @@ params:
   disable_theme_toggle: false
   disable_stay_uptodate: true
   
+  p4:
+    heading: Projects
   p5:
     heading: "Let's Connect"
     content:
@@ -73,18 +75,18 @@ params:
 
 menu:
   main:
+    - identifier: Experience
+      name: Experience
+      url: /experience/
+      weight: 40
     - identifier: Blog
       name: Blog
       url: /posts/
       weight: 50
-    - identifier: Projects
-      name: Projects
-      url: /projects/
-      weight: 50
     - identifier: Resume
       name: Resume
-      url: /resume.pdf
-      weight: 50
+      url: resume.pdf
+      weight: 60
 
 markup:
   goldmark:
