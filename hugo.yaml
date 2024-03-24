@@ -1,4 +1,4 @@
-baseURL: 'gauravjoshi.me'
+baseURL: 'https://gauravjoshi.me'
 title: Gaurav Joshi
 languageCode: en-us
 DefaultContentLanguage: en
@@ -78,10 +78,6 @@ menu:
     - identifier: Interview
       name: Interview
       url: 'https://www.youtube.com/watch?v=j4S-A-LDGM8'
-      weight: 70
-    - identifier: Contact
-      name: Contact
-      url: "#contacts"
       weight: 80
     - identifier: Resume
       name: Resume
