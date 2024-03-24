@@ -75,18 +75,18 @@ params:
 
 menu:
   main:
-    - identifier: Experience
-      name: Experience
-      url: /experience/
-      weight: 40
-    - identifier: Blog
-      name: Blog
-      url: /posts/
-      weight: 50
+    - identifier: Interview
+      name: Interview
+      url: 'https://www.youtube.com/watch?v=j4S-A-LDGM8'
+      weight: 70
+    - identifier: Contact
+      name: Contact
+      url: "#contacts"
+      weight: 80
     - identifier: Resume
       name: Resume
       url: /resume.pdf
-      weight: 60
+      weight: 90
 
 markup:
   goldmark:
