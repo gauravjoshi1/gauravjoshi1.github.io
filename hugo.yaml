@@ -85,7 +85,7 @@ menu:
       weight: 50
     - identifier: Resume
       name: Resume
-      url: resume.pdf
+      url: /resume.pdf
       weight: 60
 
 markup:
