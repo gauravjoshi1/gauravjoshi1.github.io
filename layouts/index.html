@@ -1,16 +1,16 @@
 {{ define "main" }}
 <main>
-    <div class="bg-primary-500 dark:bg-gray-900">
+    <div class="bg-primary-500">
         <div class="max-w-screen-xl px-4 py-8 mx-auto">
             <div class="grid items-center gap-8 mb-8 sm:mb-0 lg:gap-12 lg:grid-cols-12">
                 <div class="col-span-6 px-4 text-center sm:mb-6 lg:text-left lg:mb-0">
-                    <h1 class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white">
+                    <h1 class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl">
                         {{ .Site.Title }}
                     </h1>
-                    <h2 class="pb-2 text-3xl font-light text-gray-800 dark:text-gray-300 md:text-4xl">
+                    <h2 class="pb-2 text-3xl font-light text-gray-800 md:text-4xl">
                         {{ .Site.Params.Moto }}
                     </h2>
-                    <p class="max-w-xl mx-auto mb-6 font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
+                    <p class="max-w-xl mx-auto mb-6 font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl">
                         {{ .Site.Params.Description}}
                     </p>
                 </div>
@@ -30,11 +30,11 @@
                     {{ .Site.Params.P4.Heading }}
                 </h2>
             </div>
-            <div class="mx-auto text-gray-900 max-w-7xl dark:text-gray-50 md:px-1.5">
-                <div class="px-4 text-gray-900 dark:text-white not-prose dark:text-zinc-200">
+            <div class="mx-auto text-gray-900 max-w-7xl md:px-1.5">
+                <div class="px-4 text-gray-900 not-prose">
                     <div class="grid gap-4 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-3">
                         {{ range where .Site.RegularPages "Section" "projects" }}
-                        <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
+                        <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50">
                             <a href="{{.Params.github_link}}">
                                 {{ with .Params.featured_image }}
                                 {{ with resources.Get . }}
@@ -45,13 +45,13 @@
                             </a>
                             <div class="p-6">
                                 <div class="flex-1">
-                                    <a href="{{.Params.github_link}}" class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200">
+                                    <a href="{{.Params.github_link}}" class="block mt-2 text-2xl font-black text-gray-900">
                                         {{ .Title }}
                                     </a>
-                                    <p class="mt-3 text-base text-gray-900 dark:text-gray-300">
+                                    <p class="mt-3 text-base text-gray-900">
                                         {{ .Params.summary | markdownify}}
                                     </p>
-                                    <p class="mt-3 text-base text-gray-900 dark:text-gray-300">
+                                    <p class="mt-3 text-base text-gray-900">
                                         <b>Tech Stack: </b> {{ .Params.tech_stack}}
                                     </p>
                                 </div>
@@ -65,26 +65,26 @@
     </div>
       
     <!-- Contact -->
-    <div class="px-4 py-8 bg-primary-500 dark:bg-gray-900">
+    <div class="px-4 py-8 bg-primary-500">
         <div class="text-center">
             <h2 class="text-3xl font-bold tracking-tight text-gray-800 sm:text-4xl"> Contact Me </h2>
         </div>
         <div class="max-w-screen-md px-4 mx-auto">  
             <form name="contact" action="https://formsubmit.co/74a8c13bd688eb8328c0e0d06d73ea75" method="POST" class="space-y-8">
                 <div class="my-4">
-                    <label for="name" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-300"><strong>Name</strong></label>
-                    <input type="text" name="name" class="block w-full p-3 text-gray-900 border border-gray-300 rounded-lg shadow-sm text-md bg-gray-50 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 dark:shadow-sm-light" placeholder="Your Name..." required>
+                    <label for="name" class="block mb-2 font-medium text-gray-900 text-md"><strong>Name</strong></label>
+                    <input type="text" name="name" class="block w-full p-3 text-gray-900 border border-gray-300 rounded-lg shadow-sm text-md bg-gray-50 focus:ring-indigo-500 focus:border-indigo-500" placeholder="Your Name..." required>
                 </div>
                 <div class="my-4">
-                    <label for="email" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-300"><strong>Email</strong></label>
-                    <input type="email" name="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-indigo-500 focus:border-indigo-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 dark:shadow-sm-light" placeholder="name@example.com" required>
+                    <label for="email" class="block mb-2 font-medium text-gray-900 text-md"><strong>Email</strong></label>
+                    <input type="email" name="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-indigo-500 focus:border-indigo-500 block w-full p-2.5" placeholder="name@example.com" required>
                 </div>
                 <div class="my-4 sm:col-span-2">
-                    <label for="message" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-400"><strong>Message</strong></label>
-                    <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500" placeholder="Leave a comment..."></textarea>
+                    <label for="message" class="block mb-2 font-medium text-gray-900 text-md"><strong>Message</strong></label>
+                    <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500" placeholder="Leave a comment..."></textarea>
                 </div>
                 <div class="mt-6 lg:pb-12">
-                <button type="submit" class="px-5 py-3 font-bold text-center text-white bg-indigo-600 rounded-lg text-md sm:w-fit hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800">Send Message</button>
+                <button type="submit" class="px-5 py-3 font-bold text-center text-white bg-indigo-600 rounded-lg text-md sm:w-fit hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300">Send Message</button>
                 </div>
             </form> 
         </div>
