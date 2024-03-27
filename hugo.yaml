@@ -48,13 +48,13 @@ markup:
 params:
   author: Gaurav Joshi
   moto: "Software Developer | Tech Enthusiast"
-  disable_theme_toggle: false
+  disable_theme_toggle: true
   disable_stay_uptodate: true
   
   p4:
     heading: Projects
   p5:
-    heading: "Let's Connect"
+    heading: "Contact Me"
     content:
       - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque."
     action: "#"
@@ -78,11 +78,11 @@ menu:
     - identifier: Interview
       name: Interview
       url: 'https://www.youtube.com/watch?v=j4S-A-LDGM8'
-      weight: 80
+      weight: 30
     - identifier: Resume
       name: Resume
       url: /resume.pdf
-      weight: 90
+      weight: 40
 
 markup:
   goldmark:
