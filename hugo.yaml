@@ -45,14 +45,14 @@ markup:
 
 params:
   author: Gaurav Joshi
-  moto: "Software Developer | Tech Enthusiast"
+  moto: "Software Developer focused on search, data-heavy products, and user-centric experiences."
   disable_theme_toggle: true
   disable_stay_uptodate: true
   
   p4:
     heading: Projects
   p5:
-    heading: "Contact Me"
+    heading: "Contact"
     content:
       - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque."
     action: "#"
@@ -60,26 +60,30 @@ params:
     placeholder: "Enter your email"
     button: "Notify me"
 
+  # social_media:
+  #   github:
+  #     enabled: true
+  #     url: 'https://github.com/gauravjoshi1'
+  #   linkedin:
+  #     enabled: true
+  #     url: 'https://linkedin.com/in/gauravjoshi01'
   social_media:
     github:
       enabled: true
-      url: 'https://github.com/gauravjoshi1'
-    twitter:
+      url: ''
+    linkedin:
       enabled: true
-      url: 'https://twitter.com/gauravjoshi01'
-    website:
-      enabled: true
-      url: 'https://linkedin.com/in/gauravjoshi01'
-
+      url: ''
 menu:
   main:
-    - identifier: Interview
-      name: Interview
-      url: 'https://www.youtube.com/watch?v=j4S-A-LDGM8'
-      weight: 30
     - identifier: Resume
       name: Resume
-      url: /resume.pdf
+      url: '/resume.pdf'
+      weight: 40
+    - identifier: Projects
+      name: Projects
+      action: "#"
+      url: '/#projects'
       weight: 40
 
 markup:
@@ -88,7 +92,7 @@ markup:
       unsafe: true
 
 taxonomies:
-  category: Categories
+  category: blog
   tag: Tags
 
 privacy:
